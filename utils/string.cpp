@@ -16,3 +16,14 @@ void split_str(std::string const &str, const char delim,
         out.push_back(s2); // store the string in s2
     }
 }
+
+vector<int> str_to_int_vec(string &str)
+{
+    vector<char> temp(str.begin(), str.end());
+    vector<int> result;
+    for (char x : temp)
+    {
+        result.push_back(x - '0');
+    }
+    return result;
+}
