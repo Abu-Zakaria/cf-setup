@@ -1,5 +1,4 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -13,6 +12,13 @@ using namespace std;
 
 int main()
 {
+#ifdef ONLINE_JUDGE
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+#endif
+#ifndef ONLINE_JUDGE
+    ifstream cin("input.txt");
+
+    std::cin.rdbuf(cin.rdbuf());
+#endif
 }
