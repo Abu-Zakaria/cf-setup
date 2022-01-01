@@ -10,6 +10,10 @@ using namespace std;
         PRINT(stuff.at(i));                   \
     }
 
+void solve()
+{
+}
+
 int main()
 {
 #ifdef ONLINE_JUDGE
@@ -21,4 +25,5 @@ int main()
 
     std::cin.rdbuf(cin.rdbuf());
 #endif
+    solve();
 }
