@@ -15,9 +15,41 @@ using namespace std;
     {                                         \
         PRINT_NO_LINE(stuff.at(i));           \
     }
+#define FOR(i, a) for (size_t(i) = 0; i < (a); ++(i))
+#define vecstr vector<string>
+#define vecint vector<int>
+#define isodd(x) x % 2 != 0
+#define iseven(x) x % 2 == 0
+#define all(x) (x).begin(), (x).end()
+int gcd(int a, int b)
+{
+    if (a == 0)
+    {
+        return b;
+    }
+    return gcd(b % a, a);
+}
+int nxt()
+{
+    int x;
+    cin >> x;
+    return x;
+}
+template <typename T>
+T nxt()
+{
+    T x;
+    cin >> x;
+    return x;
+}
 
 void solve()
 {
+    int t = nxt();
+    FOR(i, t)
+    {
+
+    }
 }
 
 int main()

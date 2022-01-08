@@ -21,3 +21,13 @@ int vector_how_many_times(vector<T> vec, T el)
     }
     return freq;
 }
+
+int vec_get_sum(vecint numbers)
+{
+    int sum = 0;
+    FOR(i, numbers.size())
+    {
+        sum += numbers.at(i);
+    }
+    return sum;
+}
