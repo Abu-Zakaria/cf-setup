@@ -21,6 +21,8 @@ using namespace std;
 #define isodd(x) x % 2 != 0
 #define iseven(x) x % 2 == 0
 #define all(x) (x).begin(), (x).end()
+#define PRINTYES PRINT("YES")
+#define PRINTNO PRINT("NO")
 int gcd(int a, int b)
 {
     if (a == 0)
@@ -48,7 +50,6 @@ void solve()
     int t = nxt();
     FOR(i, t)
     {
-
     }
 }
 
